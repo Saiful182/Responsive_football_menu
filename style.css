@@ -2,3 +2,33 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.top-part{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-left h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+}
+.top-right img{
+    height: 438px;
+    width: 556px;
+}
+.video-link a{
+    text-decoration: none;
+    width: 190px;
+    height: 44px;
+    background-color: #E02C6D;
+    padding: 10px 10px 10px 12px;
+    margin-left: 3px;
+}
+.video-link span, .fa-arrow-right{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
