@@ -58,6 +58,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    padding-right: 400px;
 }
 .players{
     width:60%;
@@ -96,6 +97,7 @@ body{
     line-height: 26px;
     color:#6C6C6C;
 }
+ /* footer area css part */
 footer{
     display: flex;
 flex-direction: column;
@@ -110,6 +112,7 @@ footer p{
     width: 480px;
     height: 110px;
 }
+ /* font awesome icons area */
 .social-sites {
     display: flex;
     height: 32px;
