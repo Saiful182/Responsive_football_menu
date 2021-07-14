@@ -51,10 +51,7 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
-.playes-info{
-    
- 
-}
+
 .players{
     width:60%;
     display: grid;
@@ -91,4 +88,27 @@ body{
     font-size: 16px;
     line-height: 26px;
     color:#6C6C6C;
+}
+footer{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 120px;
+}
+footer p{
+    margin-left: 110px;
+}
+.football-logo img{
+    width: 480px;
+    height: 110px;
+}
+.social-sites {
+    display: flex;
+    height: 32px;
+    width: 32px;
+}
+.social-sites a{
+   margin-right: 14px;
+   color: #969BAB;
 }
