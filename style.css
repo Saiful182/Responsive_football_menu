@@ -97,6 +97,59 @@ body{
     line-height: 26px;
     color:#6C6C6C;
 }
+ /* bonus area css */
+ 
+ .football-news h1{
+     font-size: 50px;
+     text-align: center;
+     margin-top: 50px;
+ }
+ .all-news{
+     display: flex;
+     justify-content: center;
+ }
+ .news{
+     border: 1px solid transparent;
+     border-radius: 5px;
+     width: 350px;
+     height: 350px;
+     box-shadow: 0px 0px 40px 0px #00000026;
+    
+     margin-left: 30px;
+    
+
+ }
+ .news:hover p{
+    display: block;
+    width: 350px;
+   
+ }
+ .news img{
+     width: 350px;
+     height: 200px;
+ }
+ .news:hover img{
+    display: none;
+ }
+ .news h2{
+     text-align: center;
+ }
+ .news:hover h2{
+     display: none;
+ }
+ .news a{
+     color:#6C6C6C;
+     display: none;
+ }
+ .news:hover a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    height: 350px;
+    background-color: beige;
+   
+ }
  /* footer area css part */
 footer{
     display: flex;
