@@ -121,21 +121,20 @@ body{
  .news ,.date{
      border: 1px solid transparent;
      border-radius: 5px;
-     width: 350px;
-     height: 350px;
+     width: 300px;
+     height: 340px;
      box-shadow: 0px 0px 40px 0px #00000026;
-    
      margin-left: 30px;
     
 
  }
  .news:hover p{
     display: block;
-    width: 350px;
+    width: 300px;
    
  }
  .news img, .date img{
-     width: 350px;
+     width: 300px;
      height: 200px;
  }
  .news:hover img{
