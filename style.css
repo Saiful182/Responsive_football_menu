@@ -26,6 +26,7 @@ body{
     
   
 }
+ /* transistion effect on banner */
 .top-right:hover img{
     transform: scale(1.5);
     transition: transform 3s ease-in-out;
@@ -40,6 +41,7 @@ body{
     padding: 10px 10px 10px 12px;
     margin-left: 3px;
 }
+ /* transistion effect on span element */
 .video-link:hover span{
     color:black;
     transition: color 2s ease-in-out;
@@ -48,4 +50,45 @@ body{
     color:#FFFFFF;
     font-size: 16px;
     font-weight: 500;
+}
+.playes-info{
+    
+ 
+}
+.players{
+    width:60%;
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    padding-left:280px;
+
+   
+}
+.player{
+    height: 500px;
+    width: 330px;
+    padding-left: 30px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 40px 0px #00000026;
+   
+
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin-top: 20px;
+}
+.player h3{
+    color:#18191F;
+    width:300px;
+    font-size: 28px;
+    
+}
+.player p{
+    width: 300px;
+    font-size: 16px;
+    line-height: 26px;
+    color:#6C6C6C;
 }
