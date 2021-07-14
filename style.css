@@ -71,7 +71,7 @@ body{
     padding-right: 400px;
 }
 .players{
-    width:70%;
+    width:80%;
     display: grid;
     row-gap: 30px;
     column-gap: 30px;
