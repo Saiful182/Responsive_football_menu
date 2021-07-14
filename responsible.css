@@ -1,0 +1,44 @@
+@media only screen and (max-width: 688px){
+    .top-part{
+        width: 100%;
+        flex-direction: column;
+        height: max-content;
+    }
+    .top-right{
+        margin: 55px 0;
+
+    }
+    .players-info{
+        justify-content: center;
+    }
+    .players{
+       grid-template-columns:repeat(1,1fr);
+       padding-left:25%; 
+      
+    }
+    
+}
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .top-part{
+        display: flex;
+        width: 100%;
+    }
+    .top-left h1{
+        width:400px;
+        padding-left: 10px;
+        height: 340px;
+    }
+    .video-link a{
+        padding-left: 15px;
+    }
+    }
+    .top-right img{
+        width: 400px;
+        height: 450px;
+    }
+    .players{
+        grid-template-columns:repeat(2,1fr);
+        padding-left:0; 
+       
+     }
+}
