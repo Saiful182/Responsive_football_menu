@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .top-left h1{
     font-size: 64px;
@@ -40,7 +41,7 @@ body{
 }
 .top-right img{
     height: 438px;
-    width: 556px;
+    width: 650px;
     
   
 }
@@ -52,7 +53,12 @@ body{
     
 }
 
-
+.players-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
 .players{
     width:60%;
     display: grid;
@@ -60,7 +66,7 @@ body{
     column-gap: 30px;
     grid-template-columns: repeat(3,1fr);
     margin-top: 70px;
-    padding-left:280px;
+   
 
    
 }
