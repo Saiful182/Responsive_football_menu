@@ -17,13 +17,23 @@ body{
     width: 485px;
     height: 230px;
 }
+@keyframes back {
+    to{
+        background-color: #E02C6D;
+    }
+    from{
+        background-color: red;
+    }
+    
+}
 .video-link a{
     text-decoration: none;
     width: 190px;
     height: 44px;
-    background-color: #E02C6D;
+    
     padding: 10px 10px 10px 12px;
     margin-left: 3px;
+    animation: back 2s linear 0.1s infinite ;
 }
  /* transistion effect on span element */
 .video-link:hover span{
@@ -97,7 +107,7 @@ body{
     line-height: 26px;
     color:#6C6C6C;
 }
- /* bonus area css */
+ /* bonus content 1 css */
  
  .football-news h1{
      font-size: 50px;
@@ -108,7 +118,7 @@ body{
      display: flex;
      justify-content: center;
  }
- .news{
+ .news ,.date{
      border: 1px solid transparent;
      border-radius: 5px;
      width: 350px;
@@ -124,7 +134,7 @@ body{
     width: 350px;
    
  }
- .news img{
+ .news img, .date img{
      width: 350px;
      height: 200px;
  }
@@ -150,11 +160,48 @@ body{
     background-color: beige;
    
  }
+  /* bonus content 1 css finished */
+
+  /* bonus content 2 css */
+  .football-events h1{
+      text-align: center;
+      font-size: 50px;
+  }
+  .events{
+      display: flex;
+      justify-content: center;
+  }
+  .date{
+     
+      border-radius: 20px;
+      text-align: center;
+      overflow: hidden;
+  }
+  .date h2{
+      margin: 0;
+  }
+  /* animation affect on conntry name */
+  @keyframes colored {  
+      
+    from{
+        color:red
+    }
+    to{
+        color: royalblue;
+    }
+  }
+  .date a{
+      text-decoration: none;
+      color:black; 
+      animation: colored 2s linear 0.1s infinite ;
+      
+  }
+  /* complited animation affect */
+
  /* footer area css part */
 footer{
     display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 margin-top: 120px;
 }
